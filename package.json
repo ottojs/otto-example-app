@@ -2,7 +2,10 @@
   "name" : "otto-example-app",
   "version" : "0.0.0",
   "repository" : "https://github.com/ottojs/otto-example-app.git",
-  "dependencies" : {},
+  "dependencies" : {
+    "otto"                : "0.0.4",
+    "otto-example-routes" : "0.0.2"
+  },
   "devDependencies" : {
     "jshint"    : "2.5.2",
     "mocha"     : "1.21.3",
